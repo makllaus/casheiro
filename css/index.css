@@ -1,0 +1,206 @@
+a.text-menu-left, a.text-menu-right {
+	color:  #fff !important;
+}
+
+a.text-menu-left:hover, a.text-menu-right:hover {
+	color: #f68712 !important;
+	
+
+}
+i:hover + span, div.menu-col:hover + span {
+	display: none !important;
+}
+
+div.right:hover + span{
+	display: none !important;
+}
+
+.menu-col {
+	margin-top: 20px !important;
+}
+
+img{
+	max-width:100% !important;;
+	max-height: 100% !important;;
+	height:auto;
+}
+
+#img-fundo-slider:hover {
+	height: 352px !important;
+	margin-top: 60px;
+	background: url("../images/slide-lamp-acesa.png") no-repeat center center !important;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	src: url("/register.php");
+	transition: 0s;
+	
+}
+
+
+
+ 
+#img-fundo-slider {
+	height: 352px !important;
+	margin-top: 60px;
+	background: url("../images/slide-lamp-apagada.png") no-repeat center center !important;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	transition: 3s;
+}
+
+
+/*div.container-fluid {
+	background-color: #85838a;
+}*/
+
+#logo-footer {
+	
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+}
+
+.textsocial {
+	color: #36343c !important;
+}
+
+.textsocial:hover {
+	color: #f68712 !important;
+
+}
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background:
+  	linear-gradient(#DAE0E8, #fff);
+  text-align: center;
+  padding-top: 1.152959262%;
+}
+
+
+.main {
+	
+    
+    position:relative;
+    
+    
+}
+
+#container-header {
+	width: 100%;
+	float: left;
+}
+
+
+
+/* ------- CSS PARCEIROS ------- */
+
+.main {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+   
+
+}
+ 
+/** Para deixar uma corzinha de fundo nos divs filhos **/
+.main div {
+	
+    background:#fff;
+    margin:37px;
+    height: 10%;
+    -webkit-flex:1 1 auto;
+    -moz-flex:1 1 auto;
+    -ms-flex:1 1 auto;
+    -o-flex:1 1 auto;
+
+    flex:1 1 auto;
+    -webkit-flex-flow: column;
+    -moz-flex-flow: column;
+    -ms-flex-flow: column;
+    -o-flex-flow: column;
+    flex-flow: column;
+    /*
+        A propriedade FLEX é uma atalho para a mesma coisa escrita abaixo
+        -webkit-flex-basis:auto;
+        -webkit-flex-shrink:1;
+        -webkit-flex-grow:1;
+    */
+}
+
+.main div.parceiro1 {
+	-webkit-order:1;
+	-moz-order:1;
+	-ms-order:1;
+	-o-order:1;
+
+}
+.main div.parceiro2 {
+	-webkit-order:2;
+	-moz-order:2;
+	-ms-order:2;
+	-o-order:2;
+}
+.main div.parceiro3 {
+	-webkit-order:3;
+	-moz-order:3;
+	-ms-order:3;
+	-o-order:3;
+}
+.main div.parceiro4 {
+	-webkit-order:4;
+	-moz-order:4;
+	-ms-order:4;
+	-o-order:4;
+}
+
+.parceiros h1 {
+	text-align: center;
+
+}
+/* -------------------------------------------- */
+
+.bola {
+    border-radius: 50%;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+   
+    background-color: #FFF;
+}
+.container p{
+	
+	text-align: center;
+	font-size: 26px;
+}
+.content {
+	width: 100%;
+}
+.botao {
+	border-radius: 10%;
+	border-color: #36343c;
+	border: 1px solid;
+	margin: 0.153727902%;
+	color: #36343c !important;
+	padding: 0.384319754%;
+}
+.botao:hover {
+	border-color: #f68712;
+	border: 1px solid;
+	margin: 0.153727902%;
+	color: #f68712 !important;
+	
+}
